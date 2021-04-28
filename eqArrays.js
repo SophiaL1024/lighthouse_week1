@@ -6,7 +6,7 @@ const eqArrays = function (arr1, arr2) {
     for (let i = 0; i < arr1.length; i++) {
       if (arr1[i] !== arr2[i]) {
         flag = false;
-      }
+      }   
     }
   }
   return flag;
@@ -26,3 +26,4 @@ console.log(eqArrays(["1", "2", "3"], ["1", "2", 1]))// => false
 
 assertEqual(eqArrays([1, 2, 3], [1, 2, 3]), true); // => should PASS
 assertEqual(eqArrays(["1", "2", "3"], ["1", "2", 1]), false);
+console.log("this is a test for git")
